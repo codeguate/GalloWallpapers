@@ -1,0 +1,134 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+header{
+    background-color: red;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.content_img_header{
+    width: 70%;
+    
+}
+.conteiner{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo_gallo{
+    float: left;
+    height: 62px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header_img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link{
+    flex-direction: column;
+}
+nav.nav{
+    background-color: red;
+}
+.section_1{
+    background-color: red;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-bottom: -25vh;
+}
+.size{
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.content_img{
+    background-color: white;
+}
+.nav a{
+    text-align: center;
+    color: white;
+}
+.nav img{
+    width: 100px !important;
+    margin: auto;
+}
+.all_img{
+    background-color: white;
+}
+.items_row{
+    align-items: center
+}
+.first{
+    margin-left: auto;
+}
+.last{
+    margin-right: auto;
+}
+.nav-link.active{
+    color: red;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.button_img{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    cursor: pointer;
+}
+.carousel-indicators li img{
+    content: url(../img/red.png);
+}
+.size{
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 1000px){
+    .content_img_header{
+        flex-direction: column;
+    }
+    .header_img{
+        width: 100%;
+    }
+    .logo_gallo{
+        width: 70px;
+        margin: auto;
+    }
+    br{
+        display: none;
+        height: 0;
+    }
+    .col-sm-2{
+        margin-bottom: 15px;
+    }
+}
+.texto1{
+    display: inline-block;
+    position: relative;
+    left: 37%;
+    top: 1em;
+    font-size: 2vh;
+    color: red;
+}
+.texto3{
+    display: inline-block;
+    position: relative;
+    left: 50vw;
+    top: 1em;
+     font-size: 2vh;
+    color: red;
+}
+.carousel-indicators li{
+    border-radius: 10%;
+    background: white;
+    width: 200px;
+    height: 6vh;
+}
